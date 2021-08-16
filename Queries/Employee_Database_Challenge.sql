@@ -28,3 +28,21 @@ SELECT COUNT (ut.emp_no),
 FROM unique_titles as ut
 GROUP BY title
 ORDER BY COUNT(title) DESC;
+
+--Deliverable #2 create mentorship-eligibility table
+SELECT DISTINCT ON (e.emp_no) e.emp_no,
+    e.first_name,
+	e.last_name,
+	e.birth_date,
+		de.from_date,
+		de.to_date,
+	    tl.title
+INTO mentorship_eligibilty
+FROM employees as e
+LEFT JOIN dept_employees as de
+ON (e.emp_no = de.emp_no) 
+LEFT JOIN title as tl
+ON (e.emp_no = tl.emp_no)
+WHERE (de.to_date = '9999-01-01')
+AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+ORDER BY e.emp_no;
