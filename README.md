@@ -12,7 +12,7 @@ Purpose of this analysis is to determine the number of retiring employees per ti
 - With a large number of employees reaching retirement age it will be important for Pewlett-Hackard to focus on the development and mentorship of it's current employees who are not reaching retirement age. 1549 employees will be eligible for the mentorship program. 
 ![Output](Mentorship_eligibility.PNG)
 
-## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+## Summary:
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 - 90,398 employees are reaching retirement age, these roles will need to be filled as the silver tsunami begins. 
 
