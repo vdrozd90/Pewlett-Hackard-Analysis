@@ -15,6 +15,6 @@ Purpose of this analysis is to determine the number of retiring employees per ti
 ## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 - 90,398 employees are reaching retirement age, these roles will need to be filled as the silver tsunami begins. 
-- 
+
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 - 1549 employees will be eligible for the mentorship program. This is not enough mentors to help 90k of the next generation employees. 
